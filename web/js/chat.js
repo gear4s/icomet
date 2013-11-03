@@ -350,7 +350,7 @@ y = w.innerHeight;
 $(function () {
 	$("#chat_window").width(x - 40);
 	$("#chat_window textarea").width(x - 40 - 5);
-	$(".chat_window").height(y - 190);
+	$(".chat_window").height(y - 200);
 
 	var url = location.href;
 	var channel = url.match(/channel=[^&]*/);
